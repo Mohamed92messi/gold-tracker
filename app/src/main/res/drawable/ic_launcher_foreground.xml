@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Gold Coin Sparkle Circle -->
+    <path
+        android:pathData="M54,26 C67.25,26 78,36.75 78,50 C78,63.25 67.25,74 54,74 C40.75,74 30,63.25 30,50 C30,36.75 40.75,26 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="26"
+                android:endX="78"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF2B2" />
+                <item android:offset="0.5" android:color="#D4AF37" />
+                <item android:offset="1.0" android:color="#AA7C11" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Coin Inner Star -->
+    <path
+        android:fillColor="#1B1914"
+        android:pathData="M54,38 L57.5,45.5 L65.5,46.5 L59.5,52 L61,60 L54,56 L47,60 L48.5,52 L42.5,46.5 L50.5,45.5 Z" />
+
+    <!-- Wallet / Safe Outline Guarding Bottom -->
+    <path
+        android:strokeColor="#FFF2B2"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000"
+        android:pathData="M24,44 L24,66 C24,76 34,84 54,84 C74,84 84,76 84,66 L84,44" />
+</vector>
